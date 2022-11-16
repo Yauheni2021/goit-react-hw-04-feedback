@@ -27,20 +27,7 @@ export const App = () => {
       default:
         return;
     }
-    // this.setState(prevState => {
-    // return label;
-    // { [label]: prevState[label] + 1 };
-    // }
-    //   );
   };
-  // useEffect(() => {}, [good, neutral, bad]);
-
-  // const handleIncrement = evt => {
-  //   const label = evt.target.id;
-  //   this.setState(prevState => {
-  //     return { [label]: prevState[label] + 1 };
-  //   });
-  // };
 
   const countTotalFeedback = total => {
     return (total = good + neutral + bad);
